@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Phạm Nhật Anh ơi,</strong>
+                        <p>
+                            Tớ muỗn xin lỗi vì đã nói những lời khó nghe và đầy căng thẳng trong lúc trước. Tớ nhận ra
+                            những lời nói đó gây ra đau đớn và phiền muộn trong lòng cậu và đó không phải là cách tớ
+                            muốn giao tiếp.
+                            Tớ hiểu là lời xin lỗi này không thể xoá tan mọi sai lầm, nhưng tớ muốn cậu biết rằng tớ
+                            thực sự hối hận về những lời nói đó. Tớ sẵn lòng lắng nghe những góp ý của
+                            cậu, và tớ hy vọng chúng ta có thể tiến về phía trước với sự hiểu biết và sự tôn trọng.
+                            "Xin lỗi một lần nữa và xin hãy cho ... tôi cơ hội để khắc phục."
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper')
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap')
+        })
+    </script>
+</body>
+
+</html>
